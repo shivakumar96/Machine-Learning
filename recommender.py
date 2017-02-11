@@ -25,7 +25,7 @@ def gradDescent(xval,ratinglist) :
           sumlist = []
           while(k<n) :
                thetaprev[k] = thetacur[k]
-               intetaprev[k] = intetacur[k] = int(thetaprev[k]*10000)  
+               intetaprev[k] = intetacur[k] = int(thetaprev[k]*10000)  #10000 is used to take upto 4 decimal points precision
                sumlist.append(0.0)
                k+=1      
           i =0 ;j=0;k=0;
