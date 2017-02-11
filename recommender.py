@@ -1,9 +1,9 @@
 from datsetGen import people,rating,movieName,moviefactor
 
-
-# xi is a list of movies with their factor
+#make use linear regression model and content based filtering to recommend movies
+# xval is a list of movies with their factor
 def gradDescent(xval,ratinglist) :
-     thetacur = [] 
+     thetacur = [] # to store float values 
      thetaprev = []
      intetacur = [] # integer value of theta 
      intetaprev = [] # " --------"
@@ -17,9 +17,8 @@ def gradDescent(xval,ratinglist) :
           intetaprev.append(10)
           thetaprev.append(0.1)
           i+=1
-     # graduent descendent aklgorithm
+     # actual gradient descendent algorithm
      count = 0  # to count the number of iterations
-
      while(True) :
           k = 0 
           count+=1
