@@ -37,35 +37,3 @@ for row in reader :
 
 
 
-#print people
-#print rating
-#print moviefactor
-#print movieName
-
-# print movieName[1] 
-
-#print moviefactor
-
-#print rating[int(people[1])]
-
-#print people[1]
-
-#l2 = rating[int(people[1])].keys()
-
-#l3 = movieName.keys()
-#print rating[int(people[1])]
-
-#l2.sort()
-#print l2
-
-#print l3
-
-#notwatched = []
-#for x in l3 :
-#      if x not in l2 :
-#             notwatched.append(x)
-
-#notwatched.sort()
-#print notwatched 
-      
-
