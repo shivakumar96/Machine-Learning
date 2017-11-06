@@ -1,0 +1,40 @@
+#The movie recommender system
+
+---------------------------------- system Analysis------------------------------------------------------
+
+#The recommender system 
+
+#Model used : Linear regression with content based filtering
+#Algorithm used : gradient descent
+
+----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
+#Number of Data set used : 100000 records  
+
+#13 featurs are used to describe a movie
+
+#For alpha value = 0.05 
+
+#Average iterations performed is : 5000 - 6000 iterations in gradient descent algorithm
+
+#Average time required to process : 2-5 seconds
+
+#Time efficiency : k*n , where k = 5500*13 = 71500, n= no of records
+---------------------------------------------------------------------------------------------
+
+
+
+----------------------------- reliablility of the model---------------------------------------------------
+
+#The algorithm has tested aginst a set of 439 persons id out 460+ persons
+
+#The results for a person is considered aceptable if the error is less than or equal to 30%
+
+#The system predictcs 75.85%  of 439 i.e 333 with the acceptable results
+
+#Hence the reliablity of the system is 75.85% for the acceptable result 
+
+
+------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
